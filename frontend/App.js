@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   const [coinData, setCoinData] = useState([]);
-  const [geceModu, setGeceModu, handleNight] = useNightMode(false);
+  const [geceModu, setGeceModu] = useNightMode(false);
 
   useEffect(() => {
     axios
